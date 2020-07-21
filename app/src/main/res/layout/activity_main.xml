@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="android.example.musicalstructureapp.MainActivity">
+
+
+    <TextView
+        android:id="@+id/hiphop"
+        style="@style/CategoryStyle"
+        android:background="@color/hiphop_music"
+        android:text="@string/hiphop_music"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/dance"
+        style="@style/CategoryStyle"
+        android:background="@color/dance_music"
+        android:text="@string/dance_music"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/romantic"
+        style="@style/CategoryStyle"
+        android:background="@color/romantic_music"
+        android:text="@string/romantic_music"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>

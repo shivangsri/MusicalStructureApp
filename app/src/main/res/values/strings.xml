@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Music Hub </string>
+    <string name="hiphop_music">HipHop</string>
+    <string name="dance_music">Dance</string>
+    <string name="romantic_music">Romantic</string>
+    <string name="play_button">Play</string>
+    <string name="pause_button">Pause</string>
+    <string name="stop_button">Stop</string>
+    <string name="home">Home Screen</string>
+</resources>
